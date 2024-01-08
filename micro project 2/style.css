@@ -1,0 +1,163 @@
+/* Google Font Import Link */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-content {
+  background-color: #4070f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+}
+.nav-content .nav-links {
+  display: flex;
+}
+.nav-content .nav-links li {
+  list-style: none;
+  margin: 0 10px;
+}
+.nav-links li a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+}
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.test {
+  border-radius: 70px;
+  border-color: #4070f4;
+}
+.test2 {
+  /* width: 20px;
+  height: 20px; */
+}
+.test3 {
+  margin: 40px 40px 40px 40px;
+  width: 972px;
+  height: 507px;
+  top: 289px;
+  left: 400px;
+  border-radius: 20px;
+  border: 6px;
+  background-color: rgb(217, 207, 255);
+  float: right;
+}
+.textbox {
+  background-color: #9fbcff;
+  border-radius: 20px;
+  padding: 20px;
+  word-break: break-all;
+}
+.secondhalf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px 0;
+  gap: 4%;
+}
+.fuse {
+  display: flex;
+  flex-direction: column;
+  padding: 0 60px;
+  overflow: scroll;
+}
+.bos1 {
+  width: 337px;
+  height: 145.48px;
+  top: 933px;
+  left: 101px;
+  border-radius: 11px;
+  color: #fff;
+  padding: 20px;
+}
+.color1 {
+  background: #929dff;
+}
+.color2 {
+  background: #734cf2;
+}
+.color3 {
+  background: #d288ff;
+}
+.color4 {
+  background: #000000;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: ;
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 100px;
+  border-color: white;
+}
+.boss1 {
+  width: 337px;
+  height: 100.48px;
+  top: 933px;
+  left: 101px;
+  border-radius: 11px;
+  background-color: #d288ff;
+  color: #fff;
+  padding: 20px 20px;
+  margin: 5px;
+  border: 3px solid white;
+  text-align: center;
+}
+.solidBlackTxt{
+  color: black;
+}
+.fourth {
+  display: flex;
+  flex-direction: row;
+  background-color: #483eff;
+  justify-content: space-around;
+  border-radius: 30px;
+  padding: 20px 20px;
+  margin: 100px 0 0 0;
+}
+.fifth {
+  background-color: #ffffff;
+  padding: 20px 300px 0px 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+.button {
+  padding: 5px;
+  background: #000000;
+  color: white;
+  padding: 7px 14px 7px 14px;
+}
+.cus {
+  width: 100px;
+  color: white;
+}
+
+.mybu {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.sticky{
+  position: fixed;
+  width: 50px;
+  top:5rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+
